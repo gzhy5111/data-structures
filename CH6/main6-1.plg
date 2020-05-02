@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main6-1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\高志远\AppData\Local\Temp\RSP9054.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/main6-1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\OneDrive - RLS ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\CH6\main6-1.cpp"
+]
+Creating command line "cl.exe @"C:\Users\高志远\AppData\Local\Temp\RSP9054.tmp"" 
+<h3>Output Window</h3>
+Compiling...
+main6-1.cpp
+F:\OneDrive - RLS ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\CH6\main6-1.cpp(11) : warning C4101: 'e' : unreferenced local variable
+
+
+
+<h3>Results</h3>
+main6-1.obj - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

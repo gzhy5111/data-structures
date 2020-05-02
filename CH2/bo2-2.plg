@@ -1,0 +1,121 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bo2-2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\高志远\AppData\Local\Temp\RSPBF.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/bo2-2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\OneDrive - RLS ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\CH2\bo2-2.cpp"
+]
+Creating command line "cl.exe @"C:\Users\高志远\AppData\Local\Temp\RSPBF.tmp"" 
+Creating temporary file "C:\Users\高志远\AppData\Local\Temp\RSPC0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/bo2-2.pdb" /debug /machine:I386 /out:"Debug/bo2-2.exe" /pdbtype:sept 
+".\Debug\bo2-2.obj"
+]
+Creating command line "link.exe @"C:\Users\高志远\AppData\Local\Temp\RSPC0.tmp""
+<h3>Output Window</h3>
+Compiling...
+bo2-2.cpp
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(3) : error C2065: 'malloc' : undeclared identifier
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(3) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(4) : error C2065: 'NULL' : undeclared identifier
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(4) : error C2446: '==' : no conversion from 'int' to 'struct LNode *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(4) : error C2040: '==' : 'struct LNode *' differs in levels of indirection from 'int'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(6) : error C2065: 'printf' : undeclared identifier
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(7) : error C2065: 'exit' : undeclared identifier
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(9) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(9) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(12) : error C2061: syntax error : identifier 'ElemType'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(20) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(20) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(29) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(30) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(30) : error C2227: left of '->data' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(30) : error C2065: 'e' : undeclared identifier
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(31) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(31) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(31) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(31) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(32) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(32) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(37) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(37) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(40) : error C2446: '!=' : no conversion from 'int' to 'struct LNode *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(40) : error C2040: '!=' : 'struct LNode *' differs in levels of indirection from 'int'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(42) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(42) : error C2227: left of '->data' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(43) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(43) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(48) : error C2061: syntax error : identifier 'ElemType'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(50) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(50) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(52) : error C2446: '!=' : no conversion from 'int' to 'struct LNode *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(52) : error C2040: '!=' : 'struct LNode *' differs in levels of indirection from 'int'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(54) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(54) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(57) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(57) : error C2227: left of '->data' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(62) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(62) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(75) : error C2446: '!=' : no conversion from 'int' to 'struct LNode *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(75) : error C2040: '!=' : 'struct LNode *' differs in levels of indirection from 'int'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(77) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(77) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(78) : error C2065: 'free' : undeclared identifier
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(87) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(87) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(88) : error C2446: '!=' : no conversion from 'int' to 'struct LNode *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(88) : error C2040: '!=' : 'struct LNode *' differs in levels of indirection from 'int'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(90) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(90) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(94) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(94) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(97) : error C2061: syntax error : identifier 'ElemType'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(99) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(99) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(100) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(101) : error C2027: use of undefined type 'LNode'
+        f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(1) : see declaration of 'LNode'
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(101) : error C2227: left of '->next' must point to class/struct/union
+f:\onedrive - rls ,inc\本科规划\数据结构\高一凡\《数据结构》算法实现与分析高一凡(第二版)书+源码\自己实现\ch2\bo2-2.cpp(101) : fatal error C1903: unable to recover from previous error(s); stopping compilation
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+bo2-2.exe - 61 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
